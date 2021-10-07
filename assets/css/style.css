@@ -951,9 +951,17 @@ section .container {
   margin-top: 10px;
 }
 
+.portfolio-details .portfolio-info h5 {
+  padding-top: 15px;
+}
+
 .portfolio-details .portfolio-info p {
   font-size: 15px;
-  padding: 15px 0 0 0;
+  padding-top: 5px;
+}
+
+.portfolio-details .portfolio-info a {
+  color: #e49191;
 }
 
 @media (max-width: 992px) {
@@ -975,7 +983,25 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #e49191;
+}
+
+.portfolio-details .case-study-details {
+  padding-top: 25px;
+}
+
+.portfolio-details .objectives {
+  font-style: italic;
+}
+
+.portfolio-details .case-study-details h3 {
+  padding-top: 20px;
+  color:#e49191;
+}
+
+.portfolio-details .case-study-details h5 {
+  padding-top: 15px;
+  font-style: italic;
 }
 
 /*--------------------------------------------------------------
