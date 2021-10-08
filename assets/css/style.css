@@ -987,15 +987,28 @@ section .container {
 }
 
 .portfolio-details .case-study-details {
-  padding-top: 25px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.portfolio-details .empathy-map {
+  padding-bottom: 20px;
 }
 
 .portfolio-details .objectives {
   font-style: italic;
 }
 
+.portfolio-details ol {
+  font-style: italic;
+}
+
+.portfolio-details ul {
+  font-style: italic;
+}
+
 .portfolio-details .case-study-details h3 {
-  padding-top: 20px;
+  padding-top: 40px;
   color:#e49191;
 }
 
@@ -1003,6 +1016,27 @@ section .container {
   padding-top: 15px;
   font-style: italic;
 }
+
+.portfolio-details .img-container {
+  padding-bottom: 25px;
+}
+
+.portfolio-details .carousel {
+  padding-bottom: 25px;
+}
+
+.prototype-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.case-study-details a {
+  color:#e49191;
+  font-style: italic;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
