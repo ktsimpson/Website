@@ -931,6 +931,10 @@ section .container {
   margin-bottom: 20px;
 }
 
+.portfolio-details .mm-portfolio-title {
+  font-size: 24px;
+}
+
 .portfolio-details .portfolio-info {
   padding-top: 45px;
 }
@@ -1007,6 +1011,10 @@ section .container {
   font-style: italic;
 }
 
+.portfolio-details .ol-design {
+  font-style: normal;
+}
+
 .portfolio-details .case-study-details h3 {
   padding-top: 40px;
   color:#e49191;
@@ -1035,6 +1043,10 @@ section .container {
 .case-study-details a {
   color:#e49191;
   font-style: italic;
+}
+
+.portfolio-details .carousel-caption {
+  background-color:rgba(0, 0, 0, 0.4);
 }
 
 
